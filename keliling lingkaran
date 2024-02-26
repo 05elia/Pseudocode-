@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double r, luas, keliling; // declare variables
+        System.out.print("Masukkan nilai jari-jari: ");
+        r = input.nextDouble(); // masukan jari jari
+
+        luas = Math.PI * r * r; // menghitung luas
+        keliling = 2 * Math.PI * r; // menghitung keliling 
+
+        System.out.println("Luas lingkaran: " + luas);
+        System.out.println("Keliling lingkaran: " + keliling);
+
+        input.close();
+    }
+}
