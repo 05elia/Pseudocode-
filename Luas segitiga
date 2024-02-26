@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    double a, t, luas; // Declare variables
+
+    Scanner myObj = new Scanner(System.in); // Create a Scanner object
+
+    System.out.println("Masukkan panjang alas: "); // masukan alas segitiga
+    a = myObj.nextDouble(); // Read user input
+
+    System.out.println("Masukkan tinggi: "); // Masukan Tinggi segitiga 
+    t = myObj.nextDouble(); // Read user input
+
+    luas = 0.5 * a * t; // Menghitung luas
+
+    System.out.println("Luas segitiga adalah: " + luas); // Tampilkan hasil
+  }
+}
